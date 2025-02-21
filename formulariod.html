@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h2>Pedido Para o Namorado</h2>
+    <form action="https://formspree.io/f/xeoenelp"
+    method="post">
+    
+        Nome: <input type="text" name="nome"> <br>
+        Email: <input type="email" name="email"> <br>
+        Quantidade: 
+        <input type="radio" name="Quantidade" value="p"> Pouco
+        <input type="radio" name="Quantidade" value="m"> Médio
+        <input type="radio" name="Quantidade" value="g"> Muito
+        <br>
+        Opções: <select name="Opções">
+            <option>Carinho</option>
+            <option>Massagem</option>
+            <option>beijinho</option>
+            <option>Abraços</option>
+            <option>Deixar dirigir</option>
+            <option>Todas as Alternativas</option>
+        </select>
+         <br>
+         Adicionais:
+         <input type="checkbox" name="levarSuco" value="sim"> Levar Suco
+         <input type="checkbox" name="Levar Coca-cola" value="sim"> Levar Coca-cola
+         <br>
+         Data Entrega: <input type="date" name="DataEntrega">
+         <br>
+
+         Comentário: <textarea name="mensagem" rows="10" cols="30"></textarea>
+         <br>
+         <input type="submit">
+
+    </form>
+</body>
+</html>
